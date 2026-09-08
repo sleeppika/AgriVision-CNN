@@ -11,6 +11,7 @@ from cnn_model import AgriVisionCNN
 # AGRIVISION-CNN : TRAINING CONFIGURATION
 # ============================================================
 
+# Hyperparameters are defined centrally for easy tuning and experiment tracking.
 LEARNING_RATE = 0.001
 EPOCHS = 3
 BATCH_SIZE = 32
